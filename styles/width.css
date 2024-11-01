@@ -1,0 +1,178 @@
+@media (min-width: 600px) {
+  .page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header__title {
+    position: relative;
+    left: -10px;
+  }
+
+  .header__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 162px 0;
+    grid-template-areas: 
+      "title title"
+      ". text";
+  }
+
+  .header__title {
+    margin-bottom: 0;
+    
+    left: -20px;
+  }
+
+  .decorated-zone::before {
+    top: 20px;
+  }
+
+  .decorated-zone::after {
+    bottom: 20px;
+  }
+
+  .header::before {
+    /* top: 20px; */
+
+  }
+  
+  .header::after {
+    /* bottom: 20px; */
+
+  }
+
+  .header__decoration::before {
+    top: 20px;
+  }
+
+  .header__decoration::after {
+    top: 28px;
+  }
+
+  .content {
+    padding-top: 60px;
+
+  }
+
+  
+  .tips__header {
+    max-width: 236px;
+  }
+
+  .tips__wrapper {
+
+  }
+
+  .gallary {
+    margin-bottom: 60px;
+  }
+
+  .gallary__container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-areas: 
+      "sunset sunset ice"
+      "tape books ice"
+      "tape street street";
+      gap: 20px;
+  }
+
+  .gallary__img {
+    /* width: 100%; */
+    display: block;
+    object-fit: contain;
+  }
+
+  .gallary__img_content_ice {
+    object-fit: cover;
+    height: 100%;
+  } 
+  
+  .gallary__img_content_tape {
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+@media (min-width: 650px) {
+  .tips {
+    margin-bottom: 80px;
+  }
+
+  .tips:not(:nth-child(2)) {
+    display: grid;
+    grid-template-columns: 236px 1fr;
+    margin-bottom: 80px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  /* .page {
+
+    padding-bottom: 462px;
+  } */
+
+  .header {
+    padding-top: 192px;
+    padding-bottom: 183px;
+  }
+
+  .header__container {
+    /* margin-top: 23%; */
+    margin-top: 174px;
+    
+  }
+
+
+
+}
+
+@media (min-width: 900px) {
+  .tips_content_grid .tips__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .page {
+    /* padding-top: 20px; */
+    /* padding-bottom: 319px; */
+    /* padding: 20px 20px 319px; */
+    /* padding-top: 20px; */
+  }
+
+  .header {
+    padding-top: 20px;
+    padding-bottom: 135px;
+  }
+
+
+  .header__theme-menu-list {
+    flex-direction: row ;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .header__container {
+    margin-top: 273px;
+    gap: 114px 0;
+  }
+
+  .tips:not(:nth-child(2)) {
+    grid-template-columns: 315px 1fr;
+  }
+
+  .tips__header {
+    max-width: 315px;
+  }
+}
