@@ -11,11 +11,11 @@
   */
 
   --main-color: #000028;
-  --text-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --focus-color: #DB00FF;
-  --shadow-color: #FF0070;
-  --header-color: #FF0070;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --focus-color: #db00ff;
+  --shadow-color: #ff0070;
+  --header-color: #ff0070;
   --title-color: #000028;
   --button-hover-color: rgba(255, 0, 112, 0.4);
   --background-image: url(../images/cover-image-dark.png);
