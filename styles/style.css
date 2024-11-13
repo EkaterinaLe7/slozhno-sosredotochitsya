@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  padding: 0 10px;
   color: var(--text-color, #f1b2ce);
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--main-font, Helvetica, Arial, sans-serif);
@@ -11,6 +10,10 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.content-section {
+  padding: 0 10px;
 }
 
 .header {
@@ -271,7 +274,7 @@
 
 @media (min-width: 600px) {
 
-  .page {
+  .content-section {
     padding-right: 20px;
     padding-left: 20px;
   }
